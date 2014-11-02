@@ -1,0 +1,210 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>欢迎来到twitter-登陆或注册</title>
+    <link type="text/css" rel="stylesheet" href="Login.css" />
+    <script src="dynamic.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div id="logo">
+            <a href="#"><img  src="Images/logo.png" /></a>
+        </div>
+            <div id="language">
+                <a href="#" role="button" style="text-decoration:none" id="yuyan">语言：简体中文<label id="lan"></label>▼</a>
+            </div>     
+            <div id="langu" hidden="hidden">
+                <ul id="supported_languages" aria-hidden="false">
+                    <li><a href="?lang=zh-tw" data-lang-code="zh-tw" title="繁体中文" class="js-language-link js-tooltip">繁體中文</a></li>
+                    <li><a href="?lang=ja" data-lang-code="ja" title="日语" class="js-language-link js-tooltip">日本語</a></li>
+                    <li><a href="?lang=id" data-lang-code="id" title="印尼语" class="js-language-link js-tooltip">Bahasa Indonesia</a></li>
+                    <li><a href="?lang=msa" data-lang-code="msa" title="马来语" class="js-language-link js-tooltip">Bahasa Melayu</a></li>
+                    <li><a href="?lang=cs" data-lang-code="cs" title="捷克语" class="js-language-link js-tooltip">Čeština</a></li>
+                    <li><a href="?lang=da" data-lang-code="da" title="丹麦语" class="js-language-link js-tooltip">Dansk</a></li>
+                    <li><a href="?lang=de" data-lang-code="de" title="德语" class="js-language-link js-tooltip">Deutsch</a></li>
+                    <li><a href="?lang=en" data-lang-code="en" title="英语" class="js-language-link js-tooltip">English</a></li>
+                    <li><a href="?lang=en-gb" data-lang-code="en-gb" title="English UK" class="js-language-link js-tooltip">EnglishUK</a></li>
+                    <li><a href="?lang=es" data-lang-code="es" title="西班牙语" class="js-language-link js-tooltip">Español</a></li>
+                    <li><a href="?lang=fil" data-lang-code="fil" title="菲律宾语" class="js-language-link js-tooltip">Filipino</a></li>
+                    <li><a href="?lang=fr" data-lang-code="fr" title="法语" class="js-language-link js-tooltip">français</a></li>
+                    <li><a href="?lang=it" data-lang-code="it" title="意大利语" class="js-language-link js-tooltip">Italiano</a></li>
+                    <li><a href="?lang=hu" data-lang-code="hu" title="匈牙利语" class="js-language-link js-tooltip">Magyar</a></li>
+                    <li><a href="?lang=nl" data-lang-code="nl" title="荷兰语" class="js-language-link js-tooltip">Nederlands</a></li>
+                    <li><a href="?lang=no" data-lang-code="no" title="挪威语" class="js-language-link js-tooltip">Norsk</a></li>
+                    <li><a href="?lang=pl" data-lang-code="pl" title="波兰语" class="js-language-link js-tooltip">Polski</a></li>
+                    <li><a href="?lang=pt" data-lang-code="pt" title="葡萄牙语" class="js-language-link js-tooltip">Português</a></li>
+                    <li><a href="?lang=ro" data-lang-code="ro" title="罗马尼亚语" class="js-language-link js-tooltip">română</a></li>
+                    <li><a href="?lang=fi" data-lang-code="fi" title="芬兰语" class="js-language-link js-tooltip">Suomi</a></li>
+                    <li><a href="?lang=sv" data-lang-code="sv" title="瑞典语" class="js-language-link js-tooltip">Svenska</a></li>
+                    <li><a href="?lang=vi" data-lang-code="vi" title="越南语" class="js-language-link js-tooltip">Tiếng Việt</a></li>
+                    <li><a href="?lang=tr" data-lang-code="tr" title="土耳其语" class="js-language-link js-tooltip">Türkçe</a></li>
+                    <li><a href="?lang=ru" data-lang-code="ru" title="俄语" class="js-language-link js-tooltip">Русский</a></li>
+                    <li><a href="?lang=uk" data-lang-code="uk" title="乌克兰语" class="js-language-link js-tooltip">Українська мова</a></li>
+                    <li><a href="?lang=he" data-lang-code="he" title="希伯来语" class="js-language-link js-tooltip">עִבְרִית</a></li>
+                    <li><a href="?lang=ar" data-lang-code="ar" title="阿拉伯语" class="js-language-link js-tooltip">العربية</a></li>
+                    <li><a href="?lang=fa" data-lang-code="fa" title="波斯语" class="js-language-link js-tooltip">فارسی</a></li>
+                    <li><a href="?lang=hi" data-lang-code="hi" title="印地语" class="js-language-link js-tooltip">हिन्दी</a></li>
+                    <li><a href="?lang=bn" data-lang-code="bn" title="孟加拉语" class="js-language-link js-tooltip">বাংলা</a></li>
+                    <li><a href="?lang=th" data-lang-code="th" title="泰语" class="js-language-link js-tooltip">ภาษาไทย</a></li>
+                    <li><a href="?lang=ko" data-lang-code="ko" title="朝鲜语" class="js-language-link js-tooltip">한국어</a></li>
+                </ul>
+            </div>        
+    </div>
+    <div id="bgImage">
+        <div id="welcome">
+            <h1><font color="white">欢迎来到Twitter。</font></h1>
+            <p><font color="white">联系你的好友和更多精彩。获取你感兴趣的实时更新。并通过每个视角观看事件实时呈现。</font></p>
+        </div>
+        <div class="background-companion-tweets">
+            <div class="companion-tweet" data-photo="https://abs.twimg.com/a/1414637181/img/t1/front_page/exp_wc2014_gen_laurenlemon.jpg" style="display:none">
+                <p class="text">
+                    <a href="/laurenlemon/status/470403949980549121" class="tweet-text">Okay, okay, okay! #Sasquatch2014</a>
+                </p>
+                <p class="username">
+                    <a href="/laurenlemon/status/470403949980549121" class="tweet-username">由 @<span>laurenlemon</span> 拍摄及发布</a>
+                </p>
+                <a href="/laurenlemon/status/470403949980549121" class="time tweet-time">8:20 PM - 24 May 2014</a>
+            </div>
+            <div class="companion-tweet" data-photo="https://abs.twimg.com/a/1414637181/img/t1/front_page/exp_photo_set_astro_reid.jpg" style="display:none">
+                <p class="text">
+                    <a href="/astro_reid/status/488100676069646336" class="tweet-text">Our gorgeous Earth at night under a #fullmoon</a>
+                </p>
+                <p class="username">
+                    <a href="/astro_reid/status/488100676069646336" class="tweet-username">由 @<span>astro_reid</span> 拍摄及发布</a>
+                </p>
+                <a href="/astro_reid/status/488100676069646336" class="time tweet-time">4:20 PM - 12 Jul 2014</a>
+            </div>
+            <div class="companion-tweet" data-photo="https://abs.twimg.com/a/1414637181/img/t1/front_page/exp_wc2014_gen_timtrueman.jpg" style="display:none">
+                <p class="text">
+                    <a href="/timtrueman/status/460932157389553664" class="tweet-text">Paris, at sunset, after a rainstorm</a>
+                </p>
+                <p class="username">
+                    <a href="/timtrueman/status/460932157389553664" class="tweet-username">由 @<span>timtrueman</span> 拍摄及发布</a>
+                </p>
+                <a href="/timtrueman/status/460932157389553664" class="time tweet-time">5:02 PM - 28 Apr 2014</a>
+            </div>
+            <div class="companion-tweet" data-photo="Images/logo.png" style="display:block">
+                <p class="text">
+                    <a href="/GoPro/status/487358917014323200" class="tweet-text">Breakfast at the peak of Kilimanjaro with @bilal_kabalan.</a>
+                </p>
+                <p class="username">
+                    <a href="/GoPro/status/487358917014323200" class="tweet-username">由 @<span>GoPro</span> 拍摄及发布</a>
+                </p>
+                <a href="/GoPro/status/487358917014323200" class="time tweet-time">3:13 PM - 10 Jul 2014</a>
+            </div>
+            <div class="companion-tweet" data-photo="https://abs.twimg.com/a/1414637181/img/t1/front_page/exp_wc2014_gen_couch.jpg" style="display:none">
+                <p class="text">
+                    <a href="/couch/status/463740459504771073" class="tweet-text">here&#39;s me dealing with certain javascript errors at 7:30am this morning</a>
+                </p>
+                <p class="username">
+                    <a href="/couch/status/463740459504771073" class="tweet-username">由 @<span>couch</span> 拍摄及发布</a>
+                </p>
+                <a href="/couch/status/463740459504771073" class="time tweet-time">11:01 AM - 6 May 2014</a>
+            </div>
+            <div class="companion-tweet" data-photo="https://abs.twimg.com/a/1414637181/img/t1/front_page/exp_photo_set_redbull.jpg" style="display:none">
+                <p class="text">
+                    <a href="/redbull/status/487280340206374913" class="tweet-text">Never miss a beat of @Lollapalooza. Set your reminder for the Livestream at http://win.gs/lollalive  #Lolla</a>
+                </p>
+                <p class="username">
+                    <a href="/redbull/status/487280340206374913" class="tweet-username">由 @<span>redbull</span> 拍摄及发布</a>
+                </p>
+                <a href="/redbull/status/487280340206374913" class="time tweet-time">10:01 AM - 10 Jul 2014</a>
+            </div>
+        </div>
+        <div id="login">
+            <form action="http://www.twitter.com/sessions" method="post">
+                <div class="standered">
+                    <input type="text" class="signin" placeholder="手机、邮箱地址或用户名" />
+                </div>
+                <div>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <input type="text" class="password" name="Password" placeholder="密码" />
+                                </td>
+                                <td>
+                                    <button type="submit" class="bunLogin"></button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div>
+                        <input type="checkbox" checked="checked" /><span>记住我</span>
+                        <span><a href="#" style="text-decoration:none">忘记密码？</a></span>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="register">
+            <h2>新来Twitter？注册</h2>
+            <hr />
+            <form action="https://twitter.com/signup" method="post">
+                <div class="standered">
+                    <input type="text" name="Name" placeholder="全名" class="signin">
+                </div>
+                <div class="standered">
+                    <input type="text" name="Email" placeholder="邮箱" class="signin">
+                </div>
+                <div class="standered">
+                    <input type="text" name="Password" placeholder="密码" class="signin">
+                </div>
+                <button type="submit" class="btnSignup"></button>
+            </form>
+        </div>
+        <div id="bottom">
+            <ul class="bottom">
+                <li>
+                    <a href="#">关于</a>
+                </li>
+                <li>
+                    <a href="#">帮助</a>
+                </li>
+                <li>
+                    <a href="#">博客</a>
+                </li>
+                <li>
+                    <a href="#">状态</a>
+                </li>
+                <li>
+                    <a href="#">工作机会</a>
+                </li>
+                <li>
+                    <a href="#">条款</a>
+                </li>
+                <li>
+                    <a href="#">隐私</a>
+                </li>
+                <li>
+                    <a href="#">Cookies</a>
+                </li>
+                <li>
+                    <a href="#">广告信息</a>
+                </li>
+                <li>
+                    <a href="#">商标</a>
+                </li>
+                <li>
+                    <a href="#">广告</a>
+                </li>
+                <li>
+                    <a href="#">企业</a>
+                </li>
+                <li>
+                    <a href="#">媒体</a>
+                </li>
+                <li>
+                    <a href="#">开发者</a>
+                </li>
+                <li>
+                    <a href="#">目录</a>
+                </li>
+                <li>
+                    <span class="copyright">© 2014 Twitter</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

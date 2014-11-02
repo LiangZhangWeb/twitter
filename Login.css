@@ -1,0 +1,140 @@
+﻿body {
+
+}
+#header{
+    height:48px;
+    width:1287px;
+    background-color:#ffffff;
+    /*background-color:#000000;*/
+}
+
+#logo{
+    padding-left:60px;
+    padding-top:10px;
+    float:left;
+}
+
+#language{
+    float:right;
+    padding-right:100px;
+    font-size:smaller;
+}
+
+#welcome{
+    width:500px;
+    height:200px;
+    /*background-color:pink;*/
+    float:left;
+    margin-left:200px;
+    margin-top:50px;   
+    z-index:1;
+}
+
+.background-companion-tweets{
+     width:500px;
+    height:200px;
+    /*background-color:red;*/
+    /*float:left;*/
+    margin-left:200px;
+    margin-top:400px;   
+    z-index:10;
+}
+
+#bottom ul{
+    margin:0px auto;  
+}
+
+.bottom li{
+    display:block;
+    float:left;
+    padding-left:20px;
+    text-align:center;  
+}
+.bottom li a,.bottom li span{
+    color:white;
+}
+#supported_languages li{
+     display:block;
+    float:left;
+    padding-left:10px;
+    text-align:center;
+}
+#langu{
+    width:300px;
+    height:450px;
+    background-color:white;
+      border:solid 1px #808080;
+   position:absolute;
+   left:970px;
+   top:35px;
+    z-index:10;
+}
+
+#login{
+    width:300px;
+    height:120px;
+    background-color:white;
+    border:solid 1px #808080;
+    /*margin:118px 240px auto 760px;*/ 
+    position:absolute;
+    left:760px;
+    right:20px;
+    top:68px;
+    z-index:1;
+}
+
+#register{
+    width:300px;
+    height:210px;
+    background-color:white;
+    border:solid 1px #808080;
+    /*margin:118px 240px auto 760px;*/ 
+    position:absolute;
+    left:760px;
+    right:20px;
+    top:208px;
+     z-index:1;
+}
+.text{
+    color:white;
+}
+.signin{
+    width:275px;
+    height:25px;
+    margin:5px 10px auto 10px ;
+}
+.standered{
+    width:300px;
+    height:30px;
+}
+.password{
+    width:200px;
+    height:25px;
+    margin:5px 10px auto 10px ;
+}
+.bunLogin{
+    background-image:url(Images/login.png);
+    width:65px;
+    height:30px;
+    margin-left:-5px;
+}
+.btnSignup{
+    background-image:url(Images/register.png);
+    width:110px;
+    height:30px;
+    margin-left:180px;
+    margin-top:10px;
+}
+#bgImage{
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0px;
+    top:50px;
+    /*background-repeat:no-repeat;*/
+    background-size:cover;
+    z-index:0;
+}
+.companion-tweet p a,.companion-tweet a{
+    color:white;
+}
